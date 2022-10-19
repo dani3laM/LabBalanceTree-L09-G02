@@ -109,7 +109,7 @@ def indexHeightAreas(analyzer):
     Altura del indice de areas (arbol)
     """
     # TODO lab 9, completar el llamado de indexHeightAreas()
-    return model.indexHeightAreas(analyzer)
+    pass
 
 
 def indexSizeAreas(analyzer):
@@ -117,7 +117,7 @@ def indexSizeAreas(analyzer):
     Numero de nodos en el arbol por areas
     """
     # TODO lab 9, completar el llamado de indexSizeAreas()
-    return model.indexSizeAreas(analyzer)
+    pass
 
 
 def minKeyAreas(analyzer):
@@ -125,7 +125,7 @@ def minKeyAreas(analyzer):
     La menor llave del arbol por areas
     """
     # TODO lab 9, completar el llamado de minKeyAreas()
-    return model.minKeyAreas(analyzer)
+    pass
 
 
 def maxKeyAreas(analyzer):
@@ -133,15 +133,15 @@ def maxKeyAreas(analyzer):
     La mayor llave del arbol por areas
     """
     # TODO lab 9, completar el llamado de maxKeyAreas()
-    return model.maxKeyAreas(analyzer)
+    pass
 
 
 def getCrimesByRange(analyzer, initialDate, finalDate):
     """
     Retorna el total de crimenes en un rango de fechas
     """
-    initialDate = datetime.datetime.strptime(initialDate, '%Y-%m-%d')
-    finalDate = datetime.datetime.strptime(finalDate, '%Y-%m-%d')
+    initialDate = datetime.datetime.strptime(initialDate, "%Y-%m-%d")
+    finalDate = datetime.datetime.strptime(finalDate, "%Y-%m-%d")
     return model.getCrimesByRange(analyzer, initialDate.date(),
                                   finalDate.date())
 
@@ -152,7 +152,7 @@ def getCrimesByRangeCode(analyzer, initialDate,
     Retorna el total de crimenes de un tipo especifico en una
     fecha determinada
     """
-    initialDate = datetime.datetime.strptime(initialDate, '%Y-%m-%d')
+    initialDate = datetime.datetime.strptime(initialDate, "%Y-%m-%d")
     return model.getCrimesByRangeCode(analyzer, initialDate.date(),
                                       offensecode)
 
@@ -162,9 +162,8 @@ def getCrimesByRangeArea(cont, initialArea, FinalArea):
     """
     Retorna el total de crimenes en un rango de areas
     """
-    initialArea = int(initialArea)
-    FinalArea = int(FinalArea)
-    return model.getCrimesByRangeArea(cont, initialArea, FinalArea)
+    # recuerde castear los parametros a int
+    pass
 
 
 # Funciones para medir tiempos de ejecucion
