@@ -91,6 +91,7 @@ def updateAreaIndex(map, crime):
     """
     # TODO lab 9, implementar actualizacion del indice por areas reportadas
     # revisar si el area es un str vacio ["", " ", None]
+    # area desconocida es 9999
     repoarea = crime["REPORTING_AREA"]
     if repoarea in ("", " ", None):
         repoarea = 9999
@@ -240,7 +241,7 @@ def indexHeightAreas(analyzer):
     """
     Altura del arbol por areas
     """
-    # TODO lab 9, implementar la altura del arbol por areas
+    # TODO lab 9, leer la altura del arbol por areas
     return om.height(analyzer["areaIndex"])
 
 
@@ -248,7 +249,7 @@ def indexSizeAreas(analyzer):
     """
     Numero de elementos en el indice por areas
     """
-    # TODO lab 9, implementar el numero de elementos en el indice por areas
+    # TODO lab 9, leer el numero de elementos en el indice por areas
     return om.size(analyzer["areaIndex"])
 
 
@@ -256,7 +257,7 @@ def minKeyAreas(analyzer):
     """
     Llave mas pequena por areas
     """
-    # TODO lab 9, implementar la llave mas pequena por areas
+    # TODO lab 9, leer la llave mas pequena por areas
     return om.minKey(analyzer["areaIndex"])
 
 
@@ -264,7 +265,7 @@ def maxKeyAreas(analyzer):
     """
     Llave mas grande por areas
     """
-    # TODO lab 9, implementar la llave mas grande por areas
+    # TODO lab 9, leer la llave mas grande por areas
     return om.maxKey(analyzer["areaIndex"])
 
 
@@ -272,7 +273,7 @@ def getCrimesByRangeArea(analyzer, initialArea, FinalArea):
     """
     Retorna el numero de crimenes en un rango de areas
     """
-    # TODO lab 9, implementar la consulta de crimenes por rango de areas
+    # TODO lab 9, completar la consulta de crimenes por rango de areas
     lst = om.values(analyzer["areaIndex"], initialArea, FinalArea)
     totalcrimes = 0
     for lstarea in lt.iterator(lst):
