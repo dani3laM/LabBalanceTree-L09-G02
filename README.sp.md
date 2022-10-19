@@ -1,17 +1,17 @@
 <!-- SAMPLE TREE-->
 # Sample Tree
 <!-- PROJECT SHIELDS -->
-[![Contributors][sample-Tree-contributors-shield]][sample-Tree-contributors-url]
-[![Forks][sample-Tree-forks-shield]][sample-Tree-forks-url]
-[![Stargazers][sample-Tree-stars-shield]][sample-Tree-stars-url]
-[![Issues][sample-Tree-issues-shield]][sample-Tree-issues-url]
-[![License][sample-Tree-license-shield]][sample-Tree-license-url]
+[![Contributors][sample-balance-contributors-shield]][sample-balance-contributors-url]
+[![Forks][sample-balance-forks-shield]][sample-balance-forks-url]
+[![Stargazers][sample-balance-stars-shield]][sample-balance-stars-url]
+[![Issues][sample-balance-issues-shield]][sample-balance-issues-url]
+[![License][sample-balance-license-shield]][sample-balance-license-url]
 
-Este es el repositorio es para el octavo y noveno laboratorio y enseña a los estudiantes cómo usar los ADT Mapas Ordenados, específicamente el Árbol de Búsqueda Binaria (BST) y el Árbol Rojo-Negro (RBT), cómo configurar ambas estructuras de datos y cómo integrarlo en los scripts MVC del curso.
+Este es el repositorio es para el noveno laboratorio y enseña a los estudiantes cómo usar los ADT Mapas Ordenados, específicamente el Árbol de Búsqueda Binaria (BST) y el Árbol Rojo-Negro (RBT), cómo configurar ambas estructuras de datos y cómo integrarlo en los scripts MVC del curso.
 
 Este repositorio forma parte del marco docente de estructura de datos y algoritmos (#EDA) de la Universidad de los Andes. El repositorio fue desarrollado por profesores y personal de la facultad en Departamento de Ingenieria de Sistemas y Computación (#DISC) y utiliza la librería Python no orientada a objetos **DISCLib**.
 
-[DISClib][disclib-url] · [Ejemplos y Tutoriales DISClib][demo-url] · [Reportar Errores][sample-Tree-bugs-url] · [Solicitar Funcionalidades][sample-Tree-issues-url]
+[DISClib][disclib-url] · [Ejemplos y Tutoriales DISClib][demo-url] · [Reportar Errores][sample-balance-bugs-url] · [Solicitar Funcionalidades][sample-balance-issues-url]
 
 <!-- PROJECT CONTENT -->
 **Tabla de contenido (actualizada)**
@@ -159,6 +159,7 @@ Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA 
 [sample-map-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleMap
 [sample-collision-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleCollision
 [sample-tree-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree
+[sample-balance-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleBalance
 [sample-graph-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleGraph
 [sample-algorithm-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleAlgorithm
 [challenge1-url]: https://github.com/ISIS1225DEVS/Reto1-Template
@@ -166,16 +167,16 @@ Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA 
 [challenge3-url]: https://github.com/ISIS1225DEVS/Reto3-Template
 [challenge4-url]: https://github.com/ISIS1225DEVS/Reto4-Template
 
-<!-- links for EDA Sample-Tree lab repository -->
-[sample-tree-contributors-shield]: https://img.shields.io/github/contributors/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
-[sample-tree-contributors-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/graphs/contributors
-[sample-tree-forks-shield]: https://img.shields.io/github/forks/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
-[sample-tree-forks-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/network/members
-[sample-tree-stars-shield]: https://img.shields.io/github/stars/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
-[sample-tree-stars-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/stargazers
-[sample-tree-issues-shield]: https://img.shields.io/github/issues/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
-[sample-tree-issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
-[sample-tree-license-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge
-[sample-tree-license-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/blob/master/LICENSE
-[sample-tree-bugs-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
-[sample-tree-issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
+<!-- links for EDA Sample-Balance lab repository -->
+[sample-balance-contributors-shield]: https://img.shields.io/github/contributors/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
+[sample-balance-contributors-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/graphs/contributors
+[sample-balance-forks-shield]: https://img.shields.io/github/forks/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
+[sample-balance-forks-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/network/members
+[sample-balance-stars-shield]: https://img.shields.io/github/stars/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
+[sample-balance-stars-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/stargazers
+[sample-balance-issues-shield]: https://img.shields.io/github/issues/ISIS1225DEVS/ISIS1225-SampleTree.svg?style=for-the-badge
+[sample-balance-issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
+[sample-balance-license-shield]: https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge
+[sample-balance-license-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/blob/master/LICENSE
+[sample-balance-bugs-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
+[sample-balance-issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-SampleTree/issues
