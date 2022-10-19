@@ -53,14 +53,14 @@ def newAnalyzer():
     Retorna el analizador inicializado.
     """
     analyzer = {"crimes": None,
-                "dateIndex": None
+                "dateIndex": None,
+                "areaIndex": None,
                 }
 
     analyzer["crimes"] = lt.newList("SINGLE_LINKED", compareIds)
     analyzer["dateIndex"] = om.newMap(omaptype="BST",
                                       comparefunction=compareDates)
     # TODO lab 9, crear el indice ordenado por areas reportadas
-    analyzer["areaIndex"] = None
     return analyzer
 
 
