@@ -23,6 +23,7 @@
 import config as cf
 from App import model
 import datetime
+import time
 import csv
 
 """
@@ -103,6 +104,38 @@ def maxKey(analyzer):
     return model.maxKey(analyzer)
 
 
+def indexHeightAreas(analyzer):
+    """
+    Altura del indice de areas (arbol)
+    """
+    # TODO lab 9, completar el llamado de indexHeightAreas()
+    return model.indexHeightAreas(analyzer)
+
+
+def indexSizeAreas(analyzer):
+    """
+    Numero de nodos en el arbol por areas
+    """
+    # TODO lab 9, completar el llamado de indexSizeAreas()
+    return model.indexSizeAreas(analyzer)
+
+
+def minKeyAreas(analyzer):
+    """
+    La menor llave del arbol por areas
+    """
+    # TODO lab 9, completar el llamado de minKeyAreas()
+    return model.minKeyAreas(analyzer)
+
+
+def maxKeyAreas(analyzer):
+    """
+    La mayor llave del arbol por areas
+    """
+    # TODO lab 9, completar el llamado de maxKeyAreas()
+    return model.maxKeyAreas(analyzer)
+
+
 def getCrimesByRange(analyzer, initialDate, finalDate):
     """
     Retorna el total de crimenes en un rango de fechas
@@ -122,3 +155,31 @@ def getCrimesByRangeCode(analyzer, initialDate,
     initialDate = datetime.datetime.strptime(initialDate, '%Y-%m-%d')
     return model.getCrimesByRangeCode(analyzer, initialDate.date(),
                                       offensecode)
+
+
+def getCrimesByRangeArea(cont, initialArea, FinalArea):
+    # TODO lab 9, completar el llamado para el req 5 para rangos de area
+    """
+    Retorna el total de crimenes en un rango de areas
+    """
+    initialArea = int(initialArea)
+    FinalArea = int(FinalArea)
+    return model.getCrimesByRangeArea(cont, initialArea, FinalArea)
+
+
+# Funciones para medir tiempos de ejecucion
+
+
+def getTime():
+    """
+    devuelve el instante tiempo de procesamiento en milisegundos
+    """
+    return float(time.perf_counter()*1000)
+
+
+def deltaTime(end, start):
+    """
+    devuelve la diferencia entre tiempos de procesamiento muestreados
+    """
+    elapsed = float(end - start)
+    return elapsed
