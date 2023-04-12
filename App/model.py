@@ -103,12 +103,12 @@ def newAreaEntry(crime):
     return entry
 
 
-def addAreaIndex(areaentry, crime):
+def addAreaIndex(area_entry, crime):
     """
     Adiciona un crimen a la lista de crimenes de un area
     """
     # TODO lab 9, adicionar crimen a la lista de crimenes de un area
-    return areaentry
+    return area_entry
 
 
 def updateDateIndex(map, crime):
@@ -251,7 +251,7 @@ def maxKeyAreas(analyzer):
     pass
 
 
-def getCrimesByRangeArea(analyzer, initialArea, FinalArea):
+def getCrimesByRangeArea(analyzer, initialArea, finalArea):
     """
     Retorna el numero de crimenes en un rango de areas
     """

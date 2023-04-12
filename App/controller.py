@@ -157,7 +157,7 @@ def getCrimesByRangeCode(analyzer, initialDate,
                                       offensecode)
 
 
-def getCrimesByRangeArea(cont, initialArea, FinalArea):
+def getCrimesByRangeArea(analyzer, initialArea, finalArea):
     # TODO lab 9, completar el llamado para el req 5 para rangos de area
     """
     Retorna el total de crimenes en un rango de areas
