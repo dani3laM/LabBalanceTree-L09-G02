@@ -59,7 +59,7 @@ def newAnalyzer():
 
     analyzer["crimes"] = lt.newList("SINGLE_LINKED", compareIds)
     analyzer["dateIndex"] = om.newMap(omaptype="BST",
-                                      comparefunction=compareDates)
+                                      cmpfunction=compareDates)
     # TODO lab 9, crear el indice ordenado por areas reportadas
     return analyzer
 
@@ -161,7 +161,7 @@ def newDataEntry(crime):
     entry = {"offenseIndex": None, "lstcrimes": None}
     entry["offenseIndex"] = m.newMap(numelements=30,
                                      maptype="PROBING",
-                                     comparefunction=compareOffenses)
+                                     cmpfunction=compareOffenses)
     entry["lstcrimes"] = lt.newList("SINGLE_LINKED", compareDates)
     lt.addLast(entry["lstcrimes"], crime)
     return entry
